@@ -1,0 +1,189 @@
+body{
+    font-family: "Courier New";
+    font-size: 18px;
+}
+.clearfix{
+    clear:both;
+    overflow: hidden;
+}
+header{
+    background-color: orange;
+
+}
+header img{
+    margin-left: 80px;
+}
+.nav-menu ul{
+    padding: 0;
+}
+.nav-menu li{
+    position: relative;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu ul li {
+    text-align: center;
+    display: inline;
+    margin: 15px;
+    font-size: 22px;
+}
+.fixed-menu{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: #fff;
+    z-index: 1000;
+    left: 0px;
+    height: 60px;
+}
+nav ul li a {
+    width: 100%;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+
+}
+.nav-menu ul ul li a{
+    width: 100px;
+    text-align: center;
+    padding-left: 0;
+    float: left;
+    color: darkmagenta;
+
+}
+.nav-menu ul>li>ul{
+    width: 800px;
+    float: left;
+    background-color: azure;
+
+}
+nav ul li a:hover{
+    color: orange;
+}
+.nav-menu ul ul{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    display: none;
+
+}
+.nav-menu ul li:hover ul{
+    display: block;
+}
+
+h2{
+    border-bottom: 1px solid antiquewhite;
+}
+section{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid antiquewhite;
+}
+article{
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}
+article img{
+    margin-left: 30px;
+}
+article p{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 180px;
+    margin-left: 30px;
+}
+.noidung{
+    width: 60%;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    border: 1px solid antiquewhite;
+}
+
+.noidung img{
+    float: left;
+}
+.noidung ul li {
+    float: left;
+    list-style: none;
+    padding: 0 2px 0 2px;
+    border: 1px solid antiquewhite;
+    margin:0 5px 0 5px;
+    background-color: orange;
+
+    }
+.noidung article{
+    width: 340px;
+}
+.noidung a {
+    text-decoration: none;
+    float: left;
+    font-weight: lighter;
+}
+.noidung a:hover{
+    color: red;
+}
+.noidung span{
+    font-size: 13px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 195px;
+    text-overflow:ellipsis;
+}
+.nextpage{
+    margin-left: 150px;
+    width: 100%;
+
+}
+
+.noidungphai{
+    width: 34%;
+    padding: 5px;
+    margin: 10px;
+    float: right;
+    border: 1px solid antiquewhite;
+}
+
+#myTabContent ul li{
+    list-style: none;
+    text-decoration: none;
+
+
+}
+#myTabContent span{
+    overflow: hidden;
+    color: #D4D4D4;
+    float: right;
+
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid antiquewhite;
+    background-color: gainsboro;
+}
+footer span{
+    padding: 10px;
+    font-size: 15px;
+}
+span#name {
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgray;
+    padding: 7px;
+}
+span a{
+    text-decoration: none;
+
+}
+span a:hover {
+    color: blue;
+}
