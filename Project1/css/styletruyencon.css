@@ -1,0 +1,49 @@
+.details_story{
+    width: 60%;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    border: 1px solid antiquewhite;
+}
+
+.details_story img{
+    float: left;
+    width: 200px;
+}
+.details_story .line{
+    width: 450px;
+    float: left;
+    margin-left: 20px;
+}
+.details_story article{
+    width: 750px;
+}
+.details_story article p{
+    width: 100%;
+    font-size: 17px;
+}
+.details_story a{
+    float: left;
+    margin-left: 140px;
+    font-size: 30px;
+}
+.details_story a:hover{
+    color: red;
+    text-decoration: none;
+}
+.details_story .line span{
+    float: left;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.details_story .line p button{
+    margin-top: 50px;
+}
+.details_story span{
+    font-size: 13px;
+}
+
+
+
+

@@ -48,7 +48,7 @@ nav ul li a {
 
 }
 .nav-menu ul ul li a{
-    width: 100px;
+    width: 120px;
     text-align: center;
     padding-left: 0;
     float: left;
@@ -56,13 +56,15 @@ nav ul li a {
 
 }
 .nav-menu ul>li>ul{
-    width: 800px;
+    width: 1000px;
     float: left;
     background-color: azure;
+
 
 }
 nav ul li a:hover{
     color: orange;
+    text-decoration: none;
 }
 .nav-menu ul ul{
     position: absolute;
@@ -87,9 +89,6 @@ article{
     padding: 5px;
     margin: 10px;
     float: left;
-}
-article img{
-    margin-left: 30px;
 }
 article p{
     text-overflow:ellipsis;
